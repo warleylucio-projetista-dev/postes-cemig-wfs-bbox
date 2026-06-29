@@ -1,6 +1,6 @@
 # postes-cemig-wfs-bbox
-<img width="115" height="118" alt="icon" src="https://github.com/user-attachments/assets/c2bec2ac-9b3f-4c17-837a-c6eaf9e421f9" />
-<u><b>INSTALAÇÃO DO PLUGIN</b></u>:
+<img width="115" height="118" alt="icon" src="https://github.com/user-attachments/assets/c2bec2ac-9b3f-4c17-837a-c6eaf9e421f9" /><br />
+<u><b>INSTALAÇÃO DO PLUGIN</b></u>:<br />
 1º - Baixe o arquivo (ZIP), abra seu (QGIS), no menu, clique em [Complementos], na guia clique em [Gerenciar e Instalar Complementos...].<br />
 2º - No formulário aberto, na aba esquerda cinza escura, clique em [Instalar a partir do ZIP].<br />
 3º - Clique no botão no extro direito [...], indique onde está este arquivo {cemig_wfs}, feito isso ativará o botão abaixo [Instalar Complemento], clique nele.<br />
