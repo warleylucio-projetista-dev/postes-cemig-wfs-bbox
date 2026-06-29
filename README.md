@@ -1,5 +1,12 @@
 # postes-cemig-wfs-bbox
 <img width="115" height="118" alt="icon" src="https://github.com/user-attachments/assets/c2bec2ac-9b3f-4c17-837a-c6eaf9e421f9" />
+<u><b>INSTALAÇÃO DO PLUGIN</b></u>:
+1º - Baixe o arquivo (ZIP), abra seu (QGIS), no menu, clique em [Complementos], na guia clique em [Gerenciar e Instalar Complementos...].
+2º - No formulário aberto, na aba esquerda cinza escura, clique em [Instalar a partir do ZIP].
+3º - Clique no botão no extro direito [...], indique onde está este arquivo {cemig_wfs}, feito isso ativará o botão abaixo [Instalar Complemento], clique nele.
+4º - Após a instalação ele será exibido no menu [Complementos], com o título (CEMIG WFS)... Antes de usar modifique seu {EPSG}, ele deverá mostrar {EPSG:3857}, são critérios para coleta de dados que estão em um site WEB.
+5º - Gerado está ultima alteração, clique no botão do menu que abrirá um sub-botão {CEMIG - Coletar Postes (WFS)}, o algoritmo irá proceder a busca, gerar um alerta na tela em caixa de dialogo, e criar uma cópia com data, informando você o local, faça bom uso, deixe seus comentários e sugestões ou críticas, analisarei todas.
+<hr />
 A Cemig disponibiliza um endpoint WFS no (Site CIWEB) para delimitar áreas (BBOX) no mapa de compartilhamento de postes. 
 O meu algoritmo extrai dados em GeoJSON (padrão JSON) via QGIS, capturando o campo visual do ecrã com o minimo recomendado de (500m a 500m) e o máximo de (1km a 1km). 
 Em seguida, insere os pontos no QGIS aberto e guarda automaticamente o ficheiro GeoJSON em uma pasta específica do seu computador.
